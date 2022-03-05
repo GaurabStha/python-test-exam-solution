@@ -1,0 +1,1 @@
+select json_agg(company) as valuestocks from dividend where fiscal_year = 20692070;
